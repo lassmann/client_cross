@@ -1,0 +1,170 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+
+}
+.page{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.input__login{
+  border-radius: 0;
+}
+.success__button{
+  border-radius: 0;
+  border: 0;
+  background-color: #069e0d;
+}
+
+.login__row{
+  margin-right: 0;
+  margin-left: 0;
+}
+#login__panel{
+  background: inherit;
+  width: 500px;
+  border-radius: 0;
+  margin: auto;
+}
+.navigation{
+  background-color:#A51202;
+  color: #D28981;
+}
+
+#logout{
+  border:0;
+  border-radius: 0px;
+}
+
+.navbar-header {
+  float: left;
+  text-align: center;
+  color: #D28981;
+}
+
+.card__video{
+  padding-top: 10px;
+  font-size: 75%;
+  overflow: auto;
+  width: 360px;
+  height: 430px;
+  margin: 0 0 10px 5px;
+  background-color: #F5F5F5;
+  border: 1px solid #000;
+}
+.card__title{
+  font-size: 16px;
+}
+#brand {
+  margin-left: auto;
+  margin-right: auto;
+  color:#fff;
+}
+
+video{
+  object-fit:initial;
+  width: 310px;
+  max-width: 310px;
+  height: 210px;
+  max-height: 210px;
+}
+
+#login__container{
+  background-image:url("../images/video1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width:100%;
+  height:100vh;
+  padding-left:0 ;
+  padding-right:0 ;
+
+}

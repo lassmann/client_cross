@@ -1,0 +1,13 @@
+<div class="container-fluid" scrolled="vm.loadMoreVideos()">
+  <div class="row">
+      <div ng-repeat="video in vm.videos">
+        <div class="col-md-3  card__video ">
+          <a ui-sref="video({ id: video.id })" class="card__title">{{video.name}}</a>
+          <videogular>
+            <vg-media vg-src="video.sources" vg-native-controls="true"></vg-media>
+          </videogular>
+          <p>{{video.description}}</p>
+        </div>
+      </div>
+  </div>
+</div>
